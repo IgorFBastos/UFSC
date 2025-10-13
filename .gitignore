@@ -1,0 +1,9 @@
+# Ignorar pastas de build e cache
+build/
+**/build/
+*.obj
+*.exe
+*.bin
+*.elf
+*.map
+*.log
