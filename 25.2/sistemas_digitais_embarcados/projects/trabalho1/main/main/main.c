@@ -5,14 +5,14 @@
 #include "leitura.h"
 
 // Pinos que configuram os digitos
-#define DIG_0 12
-#define DIG_1 13
-#define DIG_2 14
-#define DIG_3 15
+#define DIG_0 15
+#define DIG_1 5
+#define DIG_2 18
+#define DIG_3 19
 
 // Pinos que configuram o display - 1: unidade | 2: centena
-#define DISPLAY_unidade 27
-#define DISPLAY_centena 26
+#define DISPLAY_unidade 22
+#define DISPLAY_centena 23
 
 // Variáveis globais
 volatile int contador = 0;
@@ -20,12 +20,15 @@ volatile int velocidade_contador_ms = 1000;
 volatile int parar_contador = 0;
 
 // Função auxiliar para escrever um dígito no display
+// Envia código BCD (4 bits) para o CI decodificador (ex: 74HC4511)
 void escreve_digito(int dig)
 {
-    gpio_set_level(DIG_0, (dig >> 0) & 1);
-    gpio_set_level(DIG_1, (dig >> 1) & 1);
-    gpio_set_level(DIG_2, (dig >> 2) & 1);
-    gpio_set_level(DIG_3, (dig >> 3) & 1);
+    if (dig < 0 || dig > 9) dig = 0; // Proteção: só aceita dígitos 0-9
+    
+    gpio_set_level(DIG_0, (dig >> 0) & 1); // Bit 0 (LSB)
+    gpio_set_level(DIG_1, (dig >> 1) & 1); // Bit 1
+    gpio_set_level(DIG_2, (dig >> 2) & 1); // Bit 2
+    gpio_set_level(DIG_3, (dig >> 3) & 1); // Bit 3 (MSB)
 }
 
 // TASK: responsável por atualizar o display e fazer a multiplexação
@@ -40,17 +43,29 @@ void task_mux_display_e_escrita()
         int unidade = valor_atual % 10;
         int dezena = valor_atual / 10;
 
+        // Desabilitar ambos os displays primeiro para evitar ghost
+        gpio_set_level(DISPLAY_unidade, 0);
+        gpio_set_level(DISPLAY_centena, 0);
+        
+        // Pequeno delay para garantir que displays estão desligados
+        vTaskDelay(1 / portTICK_PERIOD_MS);
+
         // Exibir unidade no display 1
         escreve_digito(unidade);
-        gpio_set_level(DISPLAY_unidade, 1);
+        gpio_set_level(DISPLAY_unidade, 1); // Habilita display da unidade
+        vTaskDelay(10 / portTICK_PERIOD_MS); // 10ms para visualização
+
+        // Desabilitar displays antes da troca
+        gpio_set_level(DISPLAY_unidade, 0);
         gpio_set_level(DISPLAY_centena, 0);
-        vTaskDelay(5 / portTICK_PERIOD_MS);
+        
+        // Pequeno delay para garantir que displays estão desligados
+        vTaskDelay(1 / portTICK_PERIOD_MS);
 
         // Exibir dezena no display 2
         escreve_digito(dezena);
-        gpio_set_level(DISPLAY_unidade, 0);
-        gpio_set_level(DISPLAY_centena, 1);
-        vTaskDelay(5 / portTICK_PERIOD_MS);
+        gpio_set_level(DISPLAY_centena, 1); // Habilita display da dezena
+        vTaskDelay(10 / portTICK_PERIOD_MS); // 10ms para visualização
     }
 }
 
@@ -74,6 +89,8 @@ void task_incrementa_contador()
 
 void app_main(void)
 {
+    // Inicializa a UART para as funções de leitura
+    init_uart();
 
     // Configuração dos pinos dos dígitos e do display como saída
     gpio_set_direction(DIG_0, GPIO_MODE_OUTPUT);
@@ -82,6 +99,14 @@ void app_main(void)
     gpio_set_direction(DIG_3, GPIO_MODE_OUTPUT);
     gpio_set_direction(DISPLAY_unidade, GPIO_MODE_OUTPUT);
     gpio_set_direction(DISPLAY_centena, GPIO_MODE_OUTPUT);
+
+    // Inicializar todos os pinos em estado conhecido
+    gpio_set_level(DIG_0, 0);
+    gpio_set_level(DIG_1, 0);
+    gpio_set_level(DIG_2, 0);
+    gpio_set_level(DIG_3, 0);
+    gpio_set_level(DISPLAY_unidade, 0); // Displays desabilitados inicialmente
+    gpio_set_level(DISPLAY_centena, 0);
 
     // Criação das tasks
     xTaskCreate(task_mux_display_e_escrita, "task_mux_display_e_escrita", 2048, NULL, 1, NULL);

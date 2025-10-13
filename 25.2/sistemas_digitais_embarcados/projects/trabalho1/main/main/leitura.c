@@ -21,6 +21,7 @@ int leiaB()
     uart_read_bytes(UART_NUM_0, &c, 1, portMAX_DELAY);
     return c;
 }
+
 // Para ler uma string
 void leiaString (char *st)
 {
@@ -34,7 +35,7 @@ void leiaString (char *st)
             if (c==13)
             {
                 st[x]=0;
-                            return;
+                return;
 
             }
             else
@@ -76,10 +77,8 @@ int leiaInteiro (void)
     }
 }
 
-
-
-void app_main() {
-
+// Função para inicializar a UART (deve ser chamada no main.c)
+void init_uart() {
     // Configura a porta serial
     const uart_config_t uart_config = {
            .baud_rate = 115200,
@@ -90,8 +89,4 @@ void app_main() {
     };
     uart_driver_install(UART_PORT_NUM, BUF_SIZE, 0, 0, NULL, 0);
     uart_param_config(UART_PORT_NUM, &uart_config);
-    // ----------------------------------------------------------
-
-
-
 }
