@@ -1,0 +1,77 @@
+
+                                      ARENA Simulation Results
+                                                  
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 9/25/2025
+Analista: None                                                        Data de revisão do modelo: 9/25/2025
+
+Replicação terminada no tempo de      : 16.0 Horas 
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Colagemd.VATimePerEntity                    .20026     (Insuf)    .16908     .23084         78    
+Corted.WaitTimePerEntity                    .77224     (Insuf)    .00000     2.1734         77    
+Corted.VATimePerEntity                      .20228     (Insuf)    .11840     .25739         77    
+Inspecao.TotalTimePerEntity                 .12500     (Insuf)    .12500     .12500         78    
+Inspecao.VATimePerEntity                    .12500     (Insuf)    .12500     .12500         78    
+Colagemd.TotalTimePerEntity                 1.3236     (Insuf)    .18439     2.2266         78    
+Tempo no sistema                            2.4901     (Insuf)    .51301     4.8973         65    
+Corted.TotalTimePerEntity                   .97452     (Insuf)    .18073     2.4127         77    
+Colagemd.WaitTimePerEntity                  1.1233     (Insuf)    .00000     2.0229         78    
+Entity 1.VATime                             .58802     (Insuf)    .43917     .89818         65    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         65    
+Entity 1.WaitTime                           1.9021     (Insuf)    .00000     4.0534         65    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         65    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         65    
+Entity 1.TotalTime                          2.4901     (Insuf)    .51301     4.8973         65    
+Colagemd.Queue.WaitingTime                  1.1351     (Insuf)    .00000     2.0563         79    
+Corted.Queue.WaitingTime                    .78529     (Insuf)    .00000     2.1734         78    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                13.106     (Insuf)    .00000     23.000     20.000    
+Colagem.NumberBusy                          .98475     (Insuf)    .00000     1.0000     1.0000    
+Colagem.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Colagem.Utilization                         .98475     (Insuf)    .00000     1.0000     1.0000    
+Corte.NumberBusy                            .98329     (Insuf)    .00000     1.0000     1.0000    
+Corte.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Corte.Utilization                           .98329     (Insuf)    .00000     1.0000     1.0000    
+Colagemd.Queue.NumberInQueue                6.2629     (Insuf)    .00000     11.000     11.000    
+Corted.Queue.NumberInQueue                  4.2658     (Insuf)    .00000     12.000     7.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Corted Number Out                           77.000    
+Corted Number In                            85.000    
+Colagemd Number In                          90.000    
+Corted Accum Wait Time                      59.462    
+Colagemd Accum Wait Time                    87.621    
+Colagemd Number Out                         78.000    
+Colagemd Accum VA Time                      15.620    
+Corted Accum VA Time                        15.575    
+Inspecao Number In                          78.000    
+Inspecao Number Out                         78.000    
+Inspecao Accum VA Time                      9.7500    
+Entity 1.NumberIn                           85.000    
+Entity 1.NumberOut                          65.000    
+Colagem.NumberSeized                        79.000    
+Colagem.ScheduledUtilization                .98475    
+Corte.NumberSeized                          78.000    
+Corte.ScheduledUtilization                  .98329    
+System.NumberOut                            65.000    
+
+
+Tempo executando a simulação: 0.17 minutos.
+Simulação completada.

@@ -1,0 +1,19 @@
+[RESOURCES]
+Colagem
+Corte
+[VARIABLES]
+Chegada das ordens.NumberOut
+Corted.NumberOut
+Corted.NumberIn
+Colagemd.NumberIn
+Expedição.NumberOut
+Corted.WaitTime
+Colagemd.WaitTime
+Colagemd.NumberOut
+Colagemd.VATime
+Corted.VATime
+Inspecao.NumberIn
+Inspecao.NumberOut
+Resultado da inspeção.NumberOut False
+Inspecao.VATime
+Resultado da inspeção.NumberOut True
