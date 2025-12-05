@@ -102,7 +102,7 @@ void app_main(void)
 
     // Inicializar todos os pinos em estado conhecido
     gpio_set_level(DIG_0, 0);
-    gpio_set_level(DIG_1, 0);TaskDelay(1 / portTICK_PERIOD_MS);
+    gpio_set_level(DIG_1, 0);
     gpio_set_level(DIG_2, 0);
     gpio_set_level(DIG_3, 0);
     gpio_set_level(DISPLAY_unidade, 0); // Displays desabilitados inicialmente
