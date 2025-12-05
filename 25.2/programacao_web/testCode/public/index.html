@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <h1>Prova de Conceito SSE</h1>
+    <p>A hora atual vinda do servidor (atualiza a cada 3s):</p>
+    <h2 id="hora-atual">Aguardando dados...</h2>
+
+</body>
+
+<script>
+    const eventoFonte = new EventSource('/eventsse');
+
+    eventoFonte.onmessage = function(evento) {
+        document.getElementById('hora-atual').textContent = evento.data;
+    };
+
+    eventoFonte.onerror = function(err) {
+        console.error("Erro na conexão SSE:", err);
+        eventoFonte.close();
+    };
+
+</script>
+
+</html>
