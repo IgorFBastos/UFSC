@@ -1,0 +1,86 @@
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico/top_conts.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico/top_conts.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico/top_conts.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico/top_conts.xst" -ofn "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico/top_conts.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top_conts.ucf -p xc3s1200e-fg320-4 top_conts.ngc top_conts.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o top_conts_map.ncd top_conts.ngd top_conts.pcf 
+par -w -intstyle ise -ol high -t 1 top_conts_map.ncd top_conts.ncd top_conts.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_conts.twx top_conts.ncd -o top_conts.twr top_conts.pcf -ucf top_conts.ucf 
+bitgen -intstyle ise -f top_conts.ut top_conts.ncd 

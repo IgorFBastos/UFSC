@@ -1,0 +1,33 @@
+# Entradas
+NET "clock"     LOC = B8;   # Clock de 25 MHz
+NET "reset"     LOC = B18;  # BTN0 - Reset
+NET "carga"     LOC = H13;  # BTN3 - Load
+NET "conta"     LOC = E18;  # BTN2 - Count
+
+# Switches (CHAVES) - 7 bits (usando SW0 a SW6)
+NET "chaves[0]" LOC = G18;  # SW0
+NET "chaves[1]" LOC = H18;  # SW1
+NET "chaves[2]" LOC = K18;  # SW2
+NET "chaves[3]" LOC = K17;  # SW3
+NET "chaves[4]" LOC = L14;  # SW4
+NET "chaves[5]" LOC = L13;  # SW5
+NET "chaves[6]" LOC = N17;  # SW6
+
+# SaÃ­das - Displays de 7 segmentos
+
+# Pinos do anodo (quais dÃ­gitos estÃ£o ligados)
+NET "an[0]" LOC = F17;  # Display 0 (direita)
+NET "an[1]" LOC = H17;  # Display 1
+NET "an[2]" LOC = C18;  # Display 2
+NET "an[3]" LOC = F15;  # Display 3 (esquerda)
+
+# Segmentos do display de 7 segmentos (dec_dpp)
+NET "dec_ddp[0]" LOC = C17;  # Ponto decimal
+NET "dec_ddp[1]" LOC = H14;  # Segmento G
+NET "dec_ddp[2]" LOC = J17;  # Segmento F
+NET "dec_ddp[3]" LOC = G14;  # Segmento E
+NET "dec_ddp[4]" LOC = D16;  # Segmento D
+NET "dec_ddp[5]" LOC = D17;  # Segmento C
+NET "dec_ddp[6]" LOC = F18;  # Segmento B
+NET "dec_ddp[7]" LOC = L18;  # Segmento A
+

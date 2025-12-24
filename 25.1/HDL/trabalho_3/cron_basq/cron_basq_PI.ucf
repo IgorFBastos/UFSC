@@ -1,0 +1,42 @@
+# Entradas - Botões
+NET "clock"         LOC = B8;    # Clock de 25 MHz
+NET "reset"         LOC = B18;   # BTN0 - Reset
+NET "carga"         LOC = H13;   # BTN3 - Carga
+NET "para_continua" LOC = E18;   # BTN2 - Conta / Pausa
+NET "novo_quarto"   LOC = D18;   # BTN1 - Novo Quarto
+
+# Switches - Valores de entrada
+NET "c_segundos[0]"   LOC = G18;  # SW0
+NET "c_segundos[1]"   LOC = H18;  # SW1
+NET "c_minutos[0]"  LOC = K18;  # SW2
+NET "c_minutos[1]"  LOC = K17;  # SW3
+NET "c_minutos[2]"  LOC = L14;  # SW4
+NET "c_minutos[3]"  LOC = L13;  # SW5
+NET "c_quarto[0]" LOC = N17;  # SW6
+NET "c_quarto[1]" LOC = R17;  # SW7
+
+
+NET "leds[0]" LOC = J14;
+NET "leds[1]" LOC = J15;
+NET "leds[2]" LOC = K15;
+NET "leds[3]" LOC = K14;
+NET "leds[4]" LOC = E16;
+NET "leds[5]" LOC = P16;
+NET "leds[6]" LOC = E4;
+NET "leds[7]" LOC = P4;
+
+
+# Saídas - Display de 7 segmentos
+NET "an[0]" LOC = F17;
+NET "an[1]" LOC = H17;
+NET "an[2]" LOC = C18;
+NET "an[3]" LOC = F15;
+
+NET "dec_ddp[0]" LOC = C17;
+NET "dec_ddp[1]" LOC = H14;
+NET "dec_ddp[2]" LOC = J17;
+NET "dec_ddp[3]" LOC = G14;
+NET "dec_ddp[4]" LOC = D16;
+NET "dec_ddp[5]" LOC = D17;
+NET "dec_ddp[6]" LOC = F18;
+NET "dec_ddp[7]" LOC = L18;

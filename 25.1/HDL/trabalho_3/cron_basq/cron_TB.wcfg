@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/ise_projs/ProjetoAtualiado/TB_cron_basq_PI_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_cron_basq_pi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_cron_basq_pi/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/para_continua" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">para_continua</obj_property>
+      <obj_property name="ObjectShortName">para_continua</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/novo_quarto" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">novo_quarto</obj_property>
+      <obj_property name="ObjectShortName">novo_quarto</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/carga" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">carga</obj_property>
+      <obj_property name="ObjectShortName">carga</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/uut/int_minutos_vec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">int_minutos_vec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">int_minutos_vec[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/uut/int_segundos_vec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">int_segundos_vec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">int_segundos_vec[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/uut/int_centesimos_vec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">int_centesimos_vec[7:0]</obj_property>
+      <obj_property name="ObjectShortName">int_centesimos_vec[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/uut/int_quartos_vec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">int_quartos_vec[3:0]</obj_property>
+      <obj_property name="ObjectShortName">int_quartos_vec[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/uut/ea" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ea</obj_property>
+      <obj_property name="ObjectShortName">ea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/uut/prox_estado" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">prox_estado</obj_property>
+      <obj_property name="ObjectShortName">prox_estado</obj_property>
+   </wvobject>
+</wave_config>

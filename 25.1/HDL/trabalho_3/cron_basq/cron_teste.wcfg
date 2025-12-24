@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/ise_projs/ProjetoAtualiado/tb_cron_basq_PI_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="tb_cron_basq_pi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_cron_basq_pi/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/btn_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_start</obj_property>
+      <obj_property name="ObjectShortName">btn_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/btn_load" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_load</obj_property>
+      <obj_property name="ObjectShortName">btn_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/btn_next" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn_next</obj_property>
+      <obj_property name="ObjectShortName">btn_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/in_quarto" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_quarto[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_quarto[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/in_min" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_min[3:0]</obj_property>
+      <obj_property name="ObjectShortName">in_min[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/in_seg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_seg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_seg[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/out_cent" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_cent[6:0]</obj_property>
+      <obj_property name="ObjectShortName">out_cent[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/out_seg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_seg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">out_seg[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/out_min" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_min[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_min[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/out_quarto" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_quarto[1:0]</obj_property>
+      <obj_property name="ObjectShortName">out_quarto[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cron_basq_pi/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+</wave_config>

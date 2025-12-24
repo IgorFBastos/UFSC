@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="cron_basq_PI.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_cron_basq_PI_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_cron_basq_PI_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="cron_basq_PI.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="cron_basq_PI.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="cron_basq_PI.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cron_basq_PI.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="cron_basq_PI.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cron_basq_PI.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cron_basq_PI.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cron_basq_PI.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="cron_basq_PI.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cron_basq_PI.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="cron_basq_PI.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="cron_basq_PI.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="cron_basq_PI.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cron_basq_PI.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="cron_basq_PI.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cron_basq_PI.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cron_basq_PI.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="cron_basq_PI.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="cron_basq_PI.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="cron_basq_PI.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="cron_basq_PI.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="cron_basq_PI.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cron_basq_PI.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cron_basq_PI_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="cron_basq_PI_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cron_basq_PI_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cron_basq_PI_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cron_basq_PI_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cron_basq_PI_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="cron_basq_PI_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cron_basq_PI_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cron_basq_PI_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="cron_basq_PI_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="cron_basq_PI_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cron_basq_PI_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cron_basq_PI_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cron_basq_PI_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="cron_basq_PI_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="cron_basq_PI_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cron_basq_PI_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cron_basq_PI_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="debounce_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cron_basq_PI_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_cron_basq_PI_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_cron_basq_PI_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cron_basq_PI_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1748558152" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="6722788503651541368" xil_pn:start_ts="1748558151">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749134208" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1749134208">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749489983" xil_pn:in_ck="-6392216467447105940" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1749489983">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TB_cron_basq_PI.vhd"/>
+      <outfile xil_pn:name="cron_basq_PI.vhd"/>
+      <outfile xil_pn:name="cron_debounce.vhd"/>
+      <outfile xil_pn:name="display_driver.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1749489986" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3837878236533142651" xil_pn:start_ts="1749489986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749489986" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3643921119987237693" xil_pn:start_ts="1749489986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749134208" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7369324677194657367" xil_pn:start_ts="1749134208">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749489986" xil_pn:in_ck="-6392216467447105940" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1749489986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TB_cron_basq_PI.vhd"/>
+      <outfile xil_pn:name="cron_basq_PI.vhd"/>
+      <outfile xil_pn:name="cron_debounce.vhd"/>
+      <outfile xil_pn:name="display_driver.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1749489991" xil_pn:in_ck="-6392216467447105940" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7458497986911797032" xil_pn:start_ts="1749489986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_cron_basq_PI_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1749489992" xil_pn:in_ck="924039221764533831" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4058522471614487333" xil_pn:start_ts="1749489991">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_cron_basq_PI_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1749473745" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1749473745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749473745" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3506872026100139627" xil_pn:start_ts="1749473745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749473745" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7369324677194657367" xil_pn:start_ts="1749473745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749473745" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1749473745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749473745" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2391842823809464877" xil_pn:start_ts="1749473745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749473745" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5485052969259075108" xil_pn:start_ts="1749473745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1749473745" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3671690636640493171" xil_pn:start_ts="1749473745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1751432923" xil_pn:in_ck="-1957729518723029481" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4864356376548004570" xil_pn:start_ts="1751432912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="cron_basq_PI.lso"/>
+      <outfile xil_pn:name="cron_basq_PI.ngc"/>
+      <outfile xil_pn:name="cron_basq_PI.ngr"/>
+      <outfile xil_pn:name="cron_basq_PI.prj"/>
+      <outfile xil_pn:name="cron_basq_PI.stx"/>
+      <outfile xil_pn:name="cron_basq_PI.syr"/>
+      <outfile xil_pn:name="cron_basq_PI.xst"/>
+      <outfile xil_pn:name="cron_basq_PI_stx_beh.prj"/>
+      <outfile xil_pn:name="cron_basq_PI_vhdl.prj"/>
+      <outfile xil_pn:name="cron_basq_PI_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1749473760" xil_pn:in_ck="-6802817087299596964" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5093874522053934760" xil_pn:start_ts="1749473760">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1751432933" xil_pn:in_ck="-8459278672573830798" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="2069979754732951030" xil_pn:start_ts="1751432923">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="cron_basq_PI.bld"/>
+      <outfile xil_pn:name="cron_basq_PI.ngd"/>
+      <outfile xil_pn:name="cron_basq_PI_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1749474109" xil_pn:in_ck="6162136305922526067" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3188416950630775481" xil_pn:start_ts="1749474099">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="cron_basq_PI.pcf"/>
+      <outfile xil_pn:name="cron_basq_PI_map.map"/>
+      <outfile xil_pn:name="cron_basq_PI_map.mrp"/>
+      <outfile xil_pn:name="cron_basq_PI_map.ncd"/>
+      <outfile xil_pn:name="cron_basq_PI_map.ngm"/>
+      <outfile xil_pn:name="cron_basq_PI_map.xrpt"/>
+      <outfile xil_pn:name="cron_basq_PI_summary.xml"/>
+      <outfile xil_pn:name="cron_basq_PI_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1749474142" xil_pn:in_ck="5815105996311823884" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6268780068511726196" xil_pn:start_ts="1749474109">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="cron_basq_PI.ncd"/>
+      <outfile xil_pn:name="cron_basq_PI.pad"/>
+      <outfile xil_pn:name="cron_basq_PI.par"/>
+      <outfile xil_pn:name="cron_basq_PI.ptwx"/>
+      <outfile xil_pn:name="cron_basq_PI.unroutes"/>
+      <outfile xil_pn:name="cron_basq_PI.xpi"/>
+      <outfile xil_pn:name="cron_basq_PI_pad.csv"/>
+      <outfile xil_pn:name="cron_basq_PI_pad.txt"/>
+      <outfile xil_pn:name="cron_basq_PI_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1749474154" xil_pn:in_ck="-6802817087299604589" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1749474142">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="cron_basq_PI.bgn"/>
+      <outfile xil_pn:name="cron_basq_PI.bit"/>
+      <outfile xil_pn:name="cron_basq_PI.drc"/>
+      <outfile xil_pn:name="cron_basq_PI.ut"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1749474248" xil_pn:in_ck="-6802817087299617443" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1749474247">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1749474142" xil_pn:in_ck="-5403257189803212049" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1749474136">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="cron_basq_PI.twr"/>
+      <outfile xil_pn:name="cron_basq_PI.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

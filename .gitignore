@@ -1,4 +1,8 @@
-# Ignorar pastas de build e cache
+
+
+# --- Geral e Desenvolvimento Web/Software ---
+node_modules/
+.env
 build/
 **/build/
 *.obj
@@ -7,3 +11,93 @@ build/
 *.elf
 *.map
 *.log
+
+# --- Xilinx ISE & ISim (Baseado nas suas imagens) ---
+# Pastas de compilação e temporários
+_ngo/
+_xmsgs/
+iseconfig/
+isim/
+xlnx_auto_0_xdb/
+xst/
+.Xil/
+
+# Arquivos de log, relatórios e estatísticas
+*.html
+*.xml
+*.xrpt
+*.log
+*.msg
+*.txt
+*.csv
+*_guide.ncd
+isim.cmd
+fuse.log
+fuse.xmsgs
+fuseRelaunch.cmd
+
+# Resultados de implementação e binários de hardware
+*.ncd
+*.ngd
+*.mrp
+*.map
+*.pad
+*.bgn
+*.drc
+*.bld
+*.bit
+*.lso
+*.prj
+*.tcl
+*.stx
+*.syr
+*.xwbt
+
+# Arquivos de simulação e temporários de baixo nível
+*.dat
+*.dbg
+*.vdb
+*.didat
+*.lin64.o
+*.c
+lockfile
+pn_info
+
+# --- Xilinx Vivado ---
+*.jou
+*.pb
+*.str
+*.dir/
+*.vdi
+*.vpp
+xsim.dir/
+xvlog.pb
+xvhdl.pb
+
+# --- Intel Quartus ---
+db/
+incremental_db/
+greybox_tmp/
+hc_output/
+output_files/
+simulation/
+*.bak
+*.orig
+*.qws
+*.jdi
+*.done
+
+# --- ModelSim / QuestaSim / Visualizadores de Onda ---
+work/
+_info
+vsim.wlf
+*.mpf
+*.mti
+*.wlf
+transcript
+*.vcd
+*.ghw
+
+# --- Sistema (Opcional) ---
+.DS_Store
+Thumbs.db

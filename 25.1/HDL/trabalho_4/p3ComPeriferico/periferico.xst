@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/xst"
+elaborate
+-ifn periferico.prj
+-ifmt mixed

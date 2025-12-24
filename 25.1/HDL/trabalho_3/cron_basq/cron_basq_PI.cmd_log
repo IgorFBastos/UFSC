@@ -1,0 +1,114 @@
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/ProjetoAtualiado/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o cron_basq_PI_map.ncd cron_basq_PI.ngd cron_basq_PI.pcf 
+par -w -intstyle ise -ol high -t 1 cron_basq_PI_map.ncd cron_basq_PI.ncd cron_basq_PI.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cron_basq_PI.twx cron_basq_PI.ncd -o cron_basq_PI.twr cron_basq_PI.pcf -ucf cron_basq_PI.ucf 
+bitgen -intstyle ise -f cron_basq_PI.ut cron_basq_PI.ncd 
+xst -intstyle ise -ifn "/home/ise/ise_projs/trabalho_3/cron_basq/cron_basq_PI.xst" -ofn "/home/ise/ise_projs/trabalho_3/cron_basq/cron_basq_PI.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cron_basq_PI.ucf -p xc3s1200e-fg320-4 cron_basq_PI.ngc cron_basq_PI.ngd  

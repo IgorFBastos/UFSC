@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/ise_projs/trabalho_4/t4_p3/p3ComPeriferico2/conts_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="conts_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="p_mips_s" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/conts_tb/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/sel_cpu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_cpu</obj_property>
+      <obj_property name="ObjectShortName">sel_cpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/an" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/dec_ddp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dec_ddp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_ddp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider30" type="divider">
+      <obj_property name="label">PROCESSADOR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#800080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/MIPS_SYSTEM_INST/I_MIPS_S/cu/i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/MIPS_SYSTEM_INST/I_MIPS_S/dp/REGS/reg[13]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[13]</obj_property>
+      <obj_property name="ObjectShortName">reg[13]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">reg[13] - t5</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/MIPS_SYSTEM_INST/I_MIPS_S/dp/REGS/reg[8]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[8]</obj_property>
+      <obj_property name="ObjectShortName">reg[8]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/MIPS_SYSTEM_INST/I_MIPS_S/dp/REGS/reg[9]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[9]</obj_property>
+      <obj_property name="ObjectShortName">reg[9]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/MIPS_SYSTEM_INST/I_MIPS_S/dp/REGS/reg[16]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">reg[16]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/MIPS_SYSTEM_INST/I_MIPS_S/dp/REGS/reg[17]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[17]</obj_property>
+      <obj_property name="ObjectShortName">reg[17]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/MIPS_SYSTEM_INST/I_MIPS_S/dp/REGS/reg[18]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[18]</obj_property>
+      <obj_property name="ObjectShortName">reg[18]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/MIPS_SYSTEM_INST/I_MIPS_S/dp/REGS/reg[19]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[19]</obj_property>
+      <obj_property name="ObjectShortName">reg[19]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">PERIFERICO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/PERIFERICO_INST/reg_decimos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_decimos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_decimos[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/PERIFERICO_INST/reg_unidades" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_unidades[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_unidades[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/PERIFERICO_INST/reg_dezenas" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_dezenas[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_dezenas[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/conts_tb/inst_top_conts/PERIFERICO_INST/reg_centenas" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg_centenas[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_centenas[3:0]</obj_property>
+      <obj_property name="label">reg_centenas[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
