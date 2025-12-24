@@ -1,0 +1,39 @@
+
+
+
+# Dependências do Node
+node_modules/
+
+# Arquivo de lock (se usar Yarn ou pnpm)
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Variáveis de ambiente
+.env
+.env.*.local
+
+# Restart do nodemon
+nodemon.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build/artefatos temporários
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
