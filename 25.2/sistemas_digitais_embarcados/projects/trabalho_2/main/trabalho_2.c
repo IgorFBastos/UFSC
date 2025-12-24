@@ -23,7 +23,7 @@ const uint8_t onda_quadrada[NUM_AMOSTRAS] = {
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 };
 
-
+// Valor = 127.5 + (127.5 * sin(a))
 const uint8_t onda_senoide[NUM_AMOSTRAS] = {
     128, 140, 153, 165, 177, 188, 199, 209, 219, 227, 234, 240, 245, 249, 252, 254,
     255, 254, 252, 249, 245, 240, 234, 227, 219, 209, 199, 188, 177, 165, 153, 140,
@@ -65,15 +65,13 @@ void rodar_onda(const uint8_t *vetor_da_onda)
     { 
         for (int i = 0; i < NUM_AMOSTRAS; i++)
         {
-            // 1. Pega o valor do vetor
+
             uint8_t valor_atual = vetor_da_onda[i];
 
             printf("Valor atual da amostra: %d\n", valor_atual);
 
-            // 2. Escreve nos pinos
             escrever_no_dac(valor_atual);
             
-            // 3. Aguarda um tempo para controlar a frequência da onda
             vTaskDelay(1);
         }
     }
@@ -82,10 +80,8 @@ void rodar_onda(const uint8_t *vetor_da_onda)
 void app_main(void)
 {
 
-    // Inicializa a UART para as funções de leitura
     init_uart();
 
-    // Configuração dos pinos dos dígitos como saída
     gpio_set_direction(D0, GPIO_MODE_OUTPUT);
     gpio_set_direction(D1, GPIO_MODE_OUTPUT);
     gpio_set_direction(D2, GPIO_MODE_OUTPUT);
@@ -95,7 +91,6 @@ void app_main(void)
     gpio_set_direction(D6, GPIO_MODE_OUTPUT);
     gpio_set_direction(D7, GPIO_MODE_OUTPUT);
 
-    // Inicializar todos os pinos em estado conhecido
     gpio_set_level(D0, 0);
     gpio_set_level(D1, 0);
     gpio_set_level(D2, 0);
